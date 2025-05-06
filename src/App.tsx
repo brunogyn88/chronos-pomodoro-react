@@ -8,10 +8,25 @@ import { DefaultInput } from './components/DefaultInput';
 import { Cycles } from './components/Cycles';
 import { DefaultButton } from './components/DefaultButton';
 import { PlayCircleIcon } from 'lucide-react';
+import { useState } from 'react';
+import { Heading } from './components/Heading';
 
-function App() {
+export function App() {
+  // const [numero, setNumero] = useState(0);
+  // // const [numero, setNumero] = useState(() => {
+  // //   console.log('Lazy initialization');
+  // //   return 0;
+  // // });
+
+  // function handleClick() {
+  //   // setNumero(prevState => prevState + 1);
+  //   setNumero(1);
+  // }
+
   return (
     <>
+      {/* <Heading>Número: {numero}</Heading>
+      <button onClick={handleClick}>Aumenta</button> */}
       <Container>
         <Logo />
       </Container>
